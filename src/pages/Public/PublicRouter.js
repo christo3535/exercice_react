@@ -1,11 +1,9 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import Home from '@/pages/Public/Home'
-import Layout from '@/pages/Public/Layout'
-import Service from '@/pages/Public/Service'
-import Contact from '@/pages/Public/Contact'
-import Error from '@/.utils/Error';
+ import Error from '@/.utils/Error';
+
+import { Layout, Home, Service, Contact } from '@/pages/Public'
 
 const PublicRoute = () => {
     return (

@@ -5,12 +5,12 @@ import "./App.css";
 import { BrowserRouter} from "react-router-dom";
 // import Error from "./.utils/Error";
 // import Layout from "@/pages/Layout";
-import PublicRoute from "@/pages/Public/PublicRoute";
+import PublicRouter from "@/pages/Public/PublicRouter";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <PublicRoute/>
+        <PublicRouter/>
       </BrowserRouter>
     </div>
   );
